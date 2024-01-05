@@ -10,7 +10,7 @@ def is_valid_snils(snils):
     control_sum = int(snils[9:])
     calculated_control_sum = calculate_control_sum(number)
 
-    return control_sum == calculated_control_sum #192-140-387 52
+    return control_sum == calculated_control_sum
 
 def calculate_control_sum(number):
     control_sum = 0
