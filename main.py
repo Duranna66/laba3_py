@@ -26,7 +26,7 @@ def calculate_control_sum(number):
     print(control_sum)
     return control_sum
 
-snils = input("Введите СНИЛС для проверки: ")
+snils = input("Введите СНИЛС для проверки:")
 if is_valid_snils(snils):
     print("СНИЛС является корректным.")
 else:
